@@ -10,7 +10,7 @@ namespace ApiToClientHelperCore
 {
     public static class TypeScriptInterfacesExtension
     {
-        private const string ImportExportTemplate = "{0} {{{1}}} from \"./{1}\";";
+        private const string ImportExportTemplate = "{0} {{{1}}} from \'./{1}\';";
         private static string _inputNamespace;
 
         private static Type[] nonPrimitivesExcludeList = new Type[]
